@@ -4,38 +4,43 @@ import { PageHeader } from '../components/PageHeader';
 import CollaborationCard from '../components/CollaborationCard';
 import { BottomBar } from '../components/BottomBar';
 import { ProjectCard } from '../components/ProjectCard';
+import sintex_banner from "../assets/sintex_banner.png";
+import aerosync_banner from "../assets/aerosync_banner.png"
+import AML_banner from "../assets/AML_banner.png"
+import tataPreSalesAI_banner from "../assets/tataPreSalesAI_banner.png"
+import mascot from "../assets/mascot.png"
 
 const projects = [
     {
-      imageUrl: "/src/assets/sintex_banner.jpeg",
+      imageUrl: sintex_banner,
       subHeading: "ML - NLP - WEB DEV",
       heading: "Syntex - ML and NLP based stock market predictor",
       date: "Oct 28, 2023 (Won 1st prize at IIIT Pune Nexus hackathon)",
       url: "https://github.com/kev0-4/Stock-Market-Predictor-with-Sentiment-Analysis"
     },
     {
-      imageUrl: "/src/assets/aerosync_banner.jpeg",
+      imageUrl: aerosync_banner,
       subHeading: "ML - LLM",
       heading: "Aerosync",
       date: "June 28, 2024",
       url: "https://github.com/kev0-4/Aerosync"
     },
     {
-      imageUrl: "/src/assets/AML_banner.jpeg",
+      imageUrl: AML_banner,
       subHeading: "ML",
       heading: "AML system for fraud and illicit transfer detection",
       date: "June, 2024 (Released a Research paper on these findings)",
       url: ""
     },
     {
-      imageUrl: "/src/assets/tataPreSalesAI_banner.jpeg",
+      imageUrl: tataPreSalesAI_banner,
       subHeading: "ML - LLM - WEB DEV",
       heading: "Tata Pre Sales AI",
       date: "July 2024",
       url: "https://github.com/kev0-4/tataPreSalesAI"
     },
     {
-        imageUrl: "/src/assets/mascot.png",
+        imageUrl: mascot,
         subHeading: "REACT - WEB DEV",
         heading: "Resume Website",
         date: "August 2024",

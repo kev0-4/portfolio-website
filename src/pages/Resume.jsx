@@ -2,6 +2,7 @@ import React from 'react';
 import { AppBar } from '../components/AppBar';
 import { BottomBar } from '../components/BottomBar';
 import { PageHeader } from '../components/PageHeader';
+import resume_final_png from "../assets/resume_final_png.png"
 
 export const Resume = () => {
   return (
@@ -101,7 +102,7 @@ export const Resume = () => {
                 rel="noopener noreferrer"
               >
                 <img 
-                  src="src/assets/resume_final_png.png" 
+                  src={resume_final_png} 
                   alt="Resume" 
                   className="w-full h-auto border-none cursor-pointer"
                 />

@@ -5,6 +5,7 @@ import { PageHeader } from '../components/PageHeader';
 import { PhotoFrame } from '../components/PhotoFrame';
 import { AppBar } from '../components/AppBar';
 import { BottomBar } from '../components/BottomBar';
+import kevin_pfp2 from "../assets/kevin_pfp2.png"
 
 export const Bio = () => {
   const experienceData = {
@@ -73,7 +74,7 @@ export const Bio = () => {
         <div className="container mx-auto px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-6 gap-10">
             <div className="col-span-1 md:col-span-2 lg:col-span-2 flex justify-center">
-              <PhotoFrame imageUrl="../src/assets/kevin_pfp2.jpg" className="w-full max-w-lg" />
+              <PhotoFrame imageUrl={kevin_pfp2} className="w-full max-w-lg" />
             </div>
             <div className="col-span-1 md:col-span-4 lg:col-span-4 flex flex-col items-left">
               <div className="w-full max-w-2xl p-3">

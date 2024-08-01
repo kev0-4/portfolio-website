@@ -9,7 +9,6 @@ import {
   CertificationsEarned,
   SkillShowcase,
 } from "../components/CertificationsEarnedCard";
-import kevin_pfp1 from "../assets/kevin_pfp1.png"
 // todo: import image in ProfileCard
 export const Home = () => {
   return (
@@ -27,7 +26,7 @@ export const Home = () => {
                 description="Innovation Engineer, AI Enthusiast"
                 location="Pune | Mumbai"
                 company="SCAAI"
-                imageUrl={kevin_pfp1} 
+                imageUrl="../src/assets/kevin_pfp1.jpg"
                 className="fade-in h-full"
               />
             </div>
