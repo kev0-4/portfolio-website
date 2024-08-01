@@ -39,7 +39,7 @@ const projects = [
         subHeading: "REACT - WEB DEV",
         heading: "Resume Website",
         date: "August 2024",
-        url: "https://github.com/kev0-4/portfolio"
+        url: "https://github.com/kev0-4/portfolio-website"
       }
   ];
   
