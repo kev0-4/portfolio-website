@@ -1,11 +1,11 @@
-import React from 'react';
-import { BioCard } from '../components/BioCard';
-import { InfoCard } from '../components/InfoCard';
-import { PageHeader } from '../components/PageHeader';
-import { PhotoFrame } from '../components/PhotoFrame';
-import { AppBar } from '../components/AppBar';
-import { BottomBar } from '../components/BottomBar';
-import kevin_pfp2 from "../assets/kevin_pfp2.png"
+import React from "react";
+import { BioCard } from "../components/BioCard";
+import { InfoCard } from "../components/InfoCard";
+import { PageHeader } from "../components/PageHeader";
+import { PhotoFrame } from "../components/PhotoFrame";
+import { AppBar } from "../components/AppBar";
+import { BottomBar } from "../components/BottomBar";
+import kevin_pfp2 from "../assets/kevin_pfp2.png";
 
 export const Bio = () => {
   const experienceData = {
@@ -19,8 +19,8 @@ export const Bio = () => {
       {
         date: "2024 July - Present",
         title: "Web Developer for",
-        subtitle: "BRC PUNE (NGO)"
-      }
+        subtitle: "BRC PUNE (NGO)",
+      },
     ],
   };
   const volunterData = {
@@ -28,20 +28,19 @@ export const Bio = () => {
     items: [
       {
         date: "2024 March- Present",
-        title: "HeadofArtificial Intelligence",
-        subtitle: "ACM SIT Chapter"
+        title: "Head of Artificial Intelligence",
+        subtitle: "ACM SIT Chapter",
       },
       {
         date: "2023 July- Present",
-        title: "Co-HeadofBlockchain Development",
-        subtitle: "Cyber-Blockchain Club"
+        title: "Co-Head of Blockchain Development",
+        subtitle: "Cyber-Blockchain Club",
       },
       {
         date: "2023 July- Present",
         title: "Technical Executive",
-        subtitle: "CodeX"
+        subtitle: "CodeX",
       },
-     
     ],
   };
   const educationData = {
@@ -66,11 +65,15 @@ export const Bio = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0f0f0f] text-white"> {/* Updated background color */}
-      <div className='p-6'>
+    <div className="min-h-screen bg-[#0f0f0f] text-white">
+      {" "}
+      {/* Updated background color */}
+      <div className="p-6">
         <AppBar />
       </div>
-      <div className="pt-16 px-8"> {/* Adjusted padding to match the BottomBar */}
+      <div className="pt-16 px-8">
+        {" "}
+        {/* Adjusted padding to match the BottomBar */}
         <div className="container mx-auto px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-6 gap-10">
             <div className="col-span-1 md:col-span-2 lg:col-span-2 flex justify-center">
@@ -91,7 +94,7 @@ export const Bio = () => {
             <div className="col-span-1 md:col-span-2 lg:col-span-2 flex justify-center">
               <InfoCard {...experienceData} className="w-full max-w-lg" />
             </div>
-            <div className='col-span-1 md:col-span-2 lg:col-span-3'>
+            <div className="col-span-1 md:col-span-2 lg:col-span-3">
               <InfoCard {...volunterData} className="w-full max-w-full" />
             </div>
             <div className="col-span-1 md:col-span-4 lg:col-span-4">

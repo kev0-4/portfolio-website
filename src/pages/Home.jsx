@@ -39,7 +39,7 @@ export const Home = () => {
                     "https://img.icons8.com/?size=100&id=PsrKUVrOXiqJ&format=png&color=000000"
                   }
                   subtitle="A LITTLE ON KEVIN"
-                  link="/Qualifications"
+                  link="/Bio"
                   className="fade-in h-full"
                 />
               </div>

@@ -8,9 +8,17 @@ import sintex_banner from "../assets/sintex_banner.png";
 import aerosync_banner from "../assets/aerosync_banner.png"
 import AML_banner from "../assets/AML_banner.png"
 import tataPreSalesAI_banner from "../assets/tataPreSalesAI_banner.png"
+import nestmate_banner from "../assets/nestmate_banner.png"
 import mascot from "../assets/mascot.png"
 
 const projects = [
+  {
+      imageUrl: nestmate_banner,
+      subHeading: "WEB DEV",
+      heading: "NestMate - Full-Stack Roommate Matching App ",
+      date: "Oct 5, 2024",
+      url: "https://github.com/kev0-4/NestMate_Backend"
+  },
     {
       imageUrl: sintex_banner,
       subHeading: "ML - NLP - WEB DEV",
