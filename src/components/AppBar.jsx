@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import mascot from "../assets/mascot.png";
+import mascot2 from "../assets/mascot2.png";
 import { Menu, X } from "lucide-react";
 
 export const AppBar = () => {
@@ -44,13 +44,12 @@ export const AppBar = () => {
 
         <div className="flex items-center px-4">
           <div className="relative">
-            <img src={mascot} alt="Mascot" className="h-12 md:h-16 relative z-10" />
+            <img src={mascot2} alt="Mascot" className="h-12 md:h-16 relative z-10" />
             <div className="absolute inset-0 z-0 h-full w-full blur-sm bg-transparent">
               <img
-                src={mascot}
+                src={mascot2}
                 alt="Mascot Glow"
-                className="h-12 md:h-16 filter drop-shadow-[0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]"
-              />
+                className="h-1 md:h-1 filter drop-shadow-[0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]"              />
             </div>
           </div>
         </div>
