@@ -25,10 +25,10 @@ export const CertificationsEarned = () => (
     <div className="bg-gray-900 w-full h-fit rounded-xl p-6 shadow-lg">
       <h2 className="text-white text-xl font-bold mb-4">Skills Overview</h2>
       <SkillBar skill="Machine Learning" percentage={90} />
-      <SkillBar skill="Full Stack Development" percentage={85} />
+      <SkillBar skill="Full Stack Development" percentage={95} />
       <SkillBar skill="Data Analysis" percentage={85} />
       <SkillBar skill="Cloud Computing" percentage={75} />
       <SkillBar skill="Competetive Programing" percentage={85} />
-      <SkillBar skill="Database Management" percentage={90} />
+      <SkillBar skill="Database Management" percentage={95} />
     </div>
   );

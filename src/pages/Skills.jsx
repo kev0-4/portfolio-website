@@ -5,15 +5,15 @@ import { PageHeader } from '../components/PageHeader';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const skillsData = [
-  { name: 'JavaScript', years: 2 },
-  { name: 'TypeScript', years: 1 },
-  { name: 'React', years: 1.5 },
-  { name: 'Node.js', years: 2 },
+  { name: 'JavaScript', years: 3 },
+  { name: 'TypeScript', years: 2.5 },
+  { name: 'React', years: 3 },
+  { name: 'Node.js', years: 3 },
   { name: 'SQL', years: 3 },
-  { name: 'NoSQL', years: 1 },
-  { name: 'Git (Version Control)', years: 2 },
-  { name: 'Docker', years: 1 },
-  { name: 'Python', years: 3 },
+  { name: 'NoSQL', years: 1.5 },
+  { name: 'Git (Version Control)', years: 3 },
+  { name: 'Docker', years: 1.5 },
+  { name: 'Python', years: 3.5 },
   { name: 'C/C++', years: 3 },
 ];
 
