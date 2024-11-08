@@ -6,7 +6,7 @@ This is the repository for my personal portfolio website, built using React and 
 
 The website is deployed at the following URLs:
 
-- [kevintandon.in](https://kevintandon.in)
+- [kevintandon.in](https://kevintandon.in) (AWS deployment currently down, use vercel one)
 - [Alternate Deployment on Vercel](https://portfolio-website-g5cy.vercel.app/)
 
 ## 🛠️ Technology Stack
